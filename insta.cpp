@@ -8,11 +8,12 @@ int main(){
     while(t--){
         cout<<"enter followers count :"<<endl;
         cin>>follower;
-        cout<<"enteer the following count :"<<endl;
+        cout<<"enter the following count :"<<endl;
         cin>>following;
         if(following>=follower*10)
         cout<<"YES"<<endl;
         else
         cout<<"NO"<<endl;
     }
+    return 0;
 }
